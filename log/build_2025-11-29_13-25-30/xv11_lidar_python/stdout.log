@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating xv11_lidar_python.egg-info
+writing xv11_lidar_python.egg-info/PKG-INFO
+writing dependency_links to xv11_lidar_python.egg-info/dependency_links.txt
+writing entry points to xv11_lidar_python.egg-info/entry_points.txt
+writing requirements to xv11_lidar_python.egg-info/requires.txt
+writing top-level names to xv11_lidar_python.egg-info/top_level.txt
+writing manifest file 'xv11_lidar_python.egg-info/SOURCES.txt'
+reading manifest file 'xv11_lidar_python.egg-info/SOURCES.txt'
+writing manifest file 'xv11_lidar_python.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wimukthi/dev_ws/install/xv11_lidar_python/lib/python3.10/site-packages/xv11-lidar-python.egg-link (link to .)
+Installing xv11_lidar script to /home/wimukthi/dev_ws/install/xv11_lidar_python/lib/xv11_lidar_python
+
+Installed /home/wimukthi/dev_ws/build/xv11_lidar_python
+running symlink_data
+creating /home/wimukthi/dev_ws/install/xv11_lidar_python/share/ament_index
+creating /home/wimukthi/dev_ws/install/xv11_lidar_python/share/ament_index/resource_index
+creating /home/wimukthi/dev_ws/install/xv11_lidar_python/share/ament_index/resource_index/packages
+symbolically linking /home/wimukthi/dev_ws/build/xv11_lidar_python/resource/xv11_lidar_python -> /home/wimukthi/dev_ws/install/xv11_lidar_python/share/ament_index/resource_index/packages
+symbolically linking /home/wimukthi/dev_ws/build/xv11_lidar_python/package.xml -> /home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python
+creating /home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/launch
+symbolically linking /home/wimukthi/dev_ws/build/xv11_lidar_python/launch/xv11_lidar.launch.py -> /home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/launch
+symbolically linking /home/wimukthi/dev_ws/build/xv11_lidar_python/launch/xv11_lidar.launch.xml -> /home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/launch

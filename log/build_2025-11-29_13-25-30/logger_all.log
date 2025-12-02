@@ -1,0 +1,361 @@
+[0.110s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.110s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a6a75e54a60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a6a75f4df00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a6a75f4df00>>)
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.283s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wimukthi/dev_ws'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_bot' with type 'ros.ament_cmake' and name 'my_bot'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['cmake', 'python']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['python_setup_py']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/xv11_lidar_python) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/xv11_lidar_python) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/xv11_lidar_python) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/xv11_lidar_python) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/xv11_lidar_python) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/xv11_lidar_python) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/xv11_lidar_python) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/xv11_lidar_python) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/xv11_lidar_python) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xv11_lidar_python' with type 'ros.ament_python' and name 'xv11_lidar_python'
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.343s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/wimukthi/dev_ws/install
+[0.344s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 339 installed packages in /opt/ros/humble
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.391s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wimukthi/dev_ws/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wimukthi/dev_ws/install/my_bot', 'merge_install': False, 'path': '/home/wimukthi/dev_ws/src/my_bot', 'symlink_install': True, 'test_result_base': None}
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.391s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wimukthi/dev_ws/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/wimukthi/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'xv11_lidar_python' build argument 'cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'xv11_lidar_python' build argument 'cmake_target' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'xv11_lidar_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'xv11_lidar_python' build argument 'cmake_clean_cache' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'xv11_lidar_python' build argument 'cmake_clean_first' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'xv11_lidar_python' build argument 'cmake_force_configure' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'xv11_lidar_python' build argument 'ament_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'xv11_lidar_python' build argument 'catkin_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'xv11_lidar_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.392s] DEBUG:colcon.colcon_core.verb:Building package 'xv11_lidar_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wimukthi/dev_ws/build/xv11_lidar_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wimukthi/dev_ws/install/xv11_lidar_python', 'merge_install': False, 'path': '/home/wimukthi/dev_ws/src/xv11_lidar_python', 'symlink_install': True, 'test_result_base': None}
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.394s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wimukthi/dev_ws/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wimukthi/dev_ws/install/serial_motor_demo', 'merge_install': False, 'path': '/home/wimukthi/dev_ws/src/serial_motor_demo/serial_motor_demo', 'symlink_install': True, 'test_result_base': None}
+[0.394s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.396s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.396s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wimukthi/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[0.396s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wimukthi/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs'
+[0.399s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.399s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.405s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wimukthi/dev_ws/src/my_bot' with build type 'ament_cmake'
+[0.405s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wimukthi/dev_ws/src/my_bot'
+[0.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.410s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wimukthi/dev_ws/src/xv11_lidar_python' with build type 'ament_python'
+[0.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('xv11_lidar_python', 'ament_prefix_path')
+[0.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/hook/ament_prefix_path.ps1'
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/hook/ament_prefix_path.dsv'
+[0.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/hook/ament_prefix_path.sh'
+[0.412s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.412s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wimukthi/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wimukthi/dev_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/wimukthi/dev_ws/build/serial_motor_demo_msgs -- -j8 -l8
+[0.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wimukthi/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wimukthi/dev_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/wimukthi/dev_ws/build/my_bot -- -j8 -l8
+[0.730s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wimukthi/dev_ws/src/xv11_lidar_python'
+[0.731s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.731s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wimukthi/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wimukthi/dev_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/wimukthi/dev_ws/build/my_bot -- -j8 -l8
+[0.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wimukthi/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wimukthi/dev_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/wimukthi/dev_ws/build/my_bot
+[0.772s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[0.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wimukthi/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wimukthi/dev_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/wimukthi/dev_ws/build/my_bot
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/my_bot' for CMake module files
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/my_bot' for CMake config files
+[0.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[0.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wimukthi/dev_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[0.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/my_bot/bin'
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/my_bot/lib/python3.10/site-packages'
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/my_bot/bin'
+[0.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/my_bot/share/my_bot/package.ps1'
+[0.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wimukthi/dev_ws/install/my_bot/share/my_bot/package.dsv'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/my_bot/share/my_bot/package.sh'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/my_bot/share/my_bot/package.bash'
+[0.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/my_bot/share/my_bot/package.zsh'
+[0.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wimukthi/dev_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[0.785s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/my_bot' for CMake module files
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/my_bot' for CMake config files
+[0.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wimukthi/dev_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[0.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/my_bot/bin'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/my_bot/lib/python3.10/site-packages'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/my_bot/bin'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/my_bot/share/my_bot/package.ps1'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wimukthi/dev_ws/install/my_bot/share/my_bot/package.dsv'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/my_bot/share/my_bot/package.sh'
+[0.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/my_bot/share/my_bot/package.bash'
+[0.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/my_bot/share/my_bot/package.zsh'
+[0.792s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wimukthi/dev_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[0.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wimukthi/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wimukthi/dev_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/wimukthi/dev_ws/build/serial_motor_demo_msgs -- -j8 -l8
+[0.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wimukthi/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wimukthi/dev_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/wimukthi/dev_ws/build/serial_motor_demo_msgs
+[0.897s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs' for CMake module files
+[0.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wimukthi/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wimukthi/dev_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/wimukthi/dev_ws/build/serial_motor_demo_msgs
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs' for CMake config files
+[0.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[0.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[0.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[0.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[0.900s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/lib'
+[0.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[0.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[0.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[0.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/bin'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/bin'
+[0.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[0.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[0.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[0.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[0.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[0.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[0.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs' for CMake module files
+[0.907s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs' for CMake config files
+[0.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/lib'
+[0.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[0.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/bin'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[0.911s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/bin'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[0.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[0.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[0.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wimukthi/dev_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[0.914s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wimukthi/dev_ws/src/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
+[0.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wimukthi/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[0.916s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.916s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.185s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wimukthi/dev_ws/src/serial_motor_demo/serial_motor_demo'
+[1.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wimukthi/dev_ws/build/xv11_lidar_python': PYTHONPATH=/home/wimukthi/dev_ws/build/xv11_lidar_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wimukthi/dev_ws/install/xv11_lidar_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wimukthi/dev_ws/build/xv11_lidar_python/build --no-deps symlink_data
+[1.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wimukthi/dev_ws/build/serial_motor_demo': PYTHONPATH=/home/wimukthi/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wimukthi/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wimukthi/dev_ws/build/serial_motor_demo/build --no-deps symlink_data
+[1.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('xv11_lidar_python', 'pythonpath_develop')
+[1.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/build/xv11_lidar_python/share/xv11_lidar_python/hook/pythonpath_develop.ps1'
+[1.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wimukthi/dev_ws/build/xv11_lidar_python' returned '0': PYTHONPATH=/home/wimukthi/dev_ws/build/xv11_lidar_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wimukthi/dev_ws/install/xv11_lidar_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wimukthi/dev_ws/build/xv11_lidar_python/build --no-deps symlink_data
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wimukthi/dev_ws/build/xv11_lidar_python/share/xv11_lidar_python/hook/pythonpath_develop.dsv'
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/build/xv11_lidar_python/share/xv11_lidar_python/hook/pythonpath_develop.sh'
+[1.693s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/xv11_lidar_python' for CMake module files
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/xv11_lidar_python' for CMake config files
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/xv11_lidar_python/lib'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/xv11_lidar_python/bin'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/xv11_lidar_python/lib/pkgconfig/xv11_lidar_python.pc'
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/xv11_lidar_python/lib/python3.10/site-packages'
+[1.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('xv11_lidar_python', 'pythonpath')
+[1.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/hook/pythonpath.ps1'
+[1.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/hook/pythonpath.dsv'
+[1.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/hook/pythonpath.sh'
+[1.696s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/xv11_lidar_python/bin'
+[1.696s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xv11_lidar_python)
+[1.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/package.ps1'
+[1.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/package.dsv'
+[1.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/package.sh'
+[1.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/package.bash'
+[1.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/package.zsh'
+[1.699s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wimukthi/dev_ws/install/xv11_lidar_python/share/colcon-core/packages/xv11_lidar_python)
+[2.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath_develop')
+[2.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.ps1'
+[2.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wimukthi/dev_ws/build/serial_motor_demo' returned '0': PYTHONPATH=/home/wimukthi/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wimukthi/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wimukthi/dev_ws/build/serial_motor_demo/build --no-deps symlink_data
+[2.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wimukthi/dev_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.dsv'
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.sh'
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo' for CMake module files
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo' for CMake config files
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo/lib'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo/bin'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages'
+[2.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wimukthi/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wimukthi/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/wimukthi/dev_ws/install/serial_motor_demo/bin'
+[2.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[2.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[2.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wimukthi/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/wimukthi/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[2.032s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wimukthi/dev_ws/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[2.032s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.032s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.032s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.033s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.037s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.037s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.037s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.049s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.049s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wimukthi/dev_ws/install/local_setup.ps1'
+[2.050s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wimukthi/dev_ws/install/_local_setup_util_ps1.py'
+[2.051s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wimukthi/dev_ws/install/setup.ps1'
+[2.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wimukthi/dev_ws/install/local_setup.sh'
+[2.053s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wimukthi/dev_ws/install/_local_setup_util_sh.py'
+[2.053s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wimukthi/dev_ws/install/setup.sh'
+[2.055s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wimukthi/dev_ws/install/local_setup.bash'
+[2.056s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wimukthi/dev_ws/install/setup.bash'
+[2.057s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wimukthi/dev_ws/install/local_setup.zsh'
+[2.058s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wimukthi/dev_ws/install/setup.zsh'

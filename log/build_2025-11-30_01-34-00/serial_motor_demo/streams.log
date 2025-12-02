@@ -1,0 +1,20 @@
+[0.675s] Invoking command in '/home/wimukthi/dev_ws/build/serial_motor_demo': PYTHONPATH=/home/wimukthi/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wimukthi/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wimukthi/dev_ws/build/serial_motor_demo/build --no-deps symlink_data
+[0.924s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.924s]   warnings.warn(
+[0.953s] running develop
+[1.133s] running egg_info
+[1.133s] writing serial_motor_demo.egg-info/PKG-INFO
+[1.133s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[1.134s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[1.134s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[1.134s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[1.136s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[1.141s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[1.143s] running build_ext
+[1.143s] Creating /home/wimukthi/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
+[1.144s] Installing driver script to /home/wimukthi/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[1.144s] Installing gui script to /home/wimukthi/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[1.144s] 
+[1.144s] Installed /home/wimukthi/dev_ws/build/serial_motor_demo
+[1.144s] running symlink_data
+[1.175s] Invoked command in '/home/wimukthi/dev_ws/build/serial_motor_demo' returned '0': PYTHONPATH=/home/wimukthi/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wimukthi/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wimukthi/dev_ws/build/serial_motor_demo/build --no-deps symlink_data

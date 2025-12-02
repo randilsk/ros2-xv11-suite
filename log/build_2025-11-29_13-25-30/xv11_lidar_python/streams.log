@@ -1,0 +1,27 @@
+[0.781s] Invoking command in '/home/wimukthi/dev_ws/build/xv11_lidar_python': PYTHONPATH=/home/wimukthi/dev_ws/build/xv11_lidar_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wimukthi/dev_ws/install/xv11_lidar_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wimukthi/dev_ws/build/xv11_lidar_python/build --no-deps symlink_data
+[1.073s] running develop
+[1.245s] running egg_info
+[1.245s] creating xv11_lidar_python.egg-info
+[1.246s] writing xv11_lidar_python.egg-info/PKG-INFO
+[1.246s] writing dependency_links to xv11_lidar_python.egg-info/dependency_links.txt
+[1.246s] writing entry points to xv11_lidar_python.egg-info/entry_points.txt
+[1.246s] writing requirements to xv11_lidar_python.egg-info/requires.txt
+[1.246s] writing top-level names to xv11_lidar_python.egg-info/top_level.txt
+[1.246s] writing manifest file 'xv11_lidar_python.egg-info/SOURCES.txt'
+[1.248s] reading manifest file 'xv11_lidar_python.egg-info/SOURCES.txt'
+[1.249s] writing manifest file 'xv11_lidar_python.egg-info/SOURCES.txt'
+[1.250s] running build_ext
+[1.250s] Creating /home/wimukthi/dev_ws/install/xv11_lidar_python/lib/python3.10/site-packages/xv11-lidar-python.egg-link (link to .)
+[1.251s] Installing xv11_lidar script to /home/wimukthi/dev_ws/install/xv11_lidar_python/lib/xv11_lidar_python
+[1.251s] 
+[1.251s] Installed /home/wimukthi/dev_ws/build/xv11_lidar_python
+[1.251s] running symlink_data
+[1.252s] creating /home/wimukthi/dev_ws/install/xv11_lidar_python/share/ament_index
+[1.252s] creating /home/wimukthi/dev_ws/install/xv11_lidar_python/share/ament_index/resource_index
+[1.252s] creating /home/wimukthi/dev_ws/install/xv11_lidar_python/share/ament_index/resource_index/packages
+[1.252s] symbolically linking /home/wimukthi/dev_ws/build/xv11_lidar_python/resource/xv11_lidar_python -> /home/wimukthi/dev_ws/install/xv11_lidar_python/share/ament_index/resource_index/packages
+[1.252s] symbolically linking /home/wimukthi/dev_ws/build/xv11_lidar_python/package.xml -> /home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python
+[1.252s] creating /home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/launch
+[1.252s] symbolically linking /home/wimukthi/dev_ws/build/xv11_lidar_python/launch/xv11_lidar.launch.py -> /home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/launch
+[1.252s] symbolically linking /home/wimukthi/dev_ws/build/xv11_lidar_python/launch/xv11_lidar.launch.xml -> /home/wimukthi/dev_ws/install/xv11_lidar_python/share/xv11_lidar_python/launch
+[1.282s] Invoked command in '/home/wimukthi/dev_ws/build/xv11_lidar_python' returned '0': PYTHONPATH=/home/wimukthi/dev_ws/build/xv11_lidar_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wimukthi/dev_ws/install/xv11_lidar_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wimukthi/dev_ws/build/xv11_lidar_python/build --no-deps symlink_data

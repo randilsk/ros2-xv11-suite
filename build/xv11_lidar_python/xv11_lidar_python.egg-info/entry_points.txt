@@ -1,0 +1,3 @@
+[console_scripts]
+xv11_lidar = xv11_lidar_python.xv11_lidar_publisher:main
+

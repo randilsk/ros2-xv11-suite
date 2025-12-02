@@ -1,0 +1,9 @@
+source;share/xv11_lidar_python/hook/pythonpath.ps1
+source;share/xv11_lidar_python/hook/pythonpath.dsv
+source;share/xv11_lidar_python/hook/pythonpath.sh
+source;share/xv11_lidar_python/hook/ament_prefix_path.ps1
+source;share/xv11_lidar_python/hook/ament_prefix_path.dsv
+source;share/xv11_lidar_python/hook/ament_prefix_path.sh
+source;../../build/xv11_lidar_python/share/xv11_lidar_python/hook/pythonpath_develop.ps1
+source;../../build/xv11_lidar_python/share/xv11_lidar_python/hook/pythonpath_develop.dsv
+source;../../build/xv11_lidar_python/share/xv11_lidar_python/hook/pythonpath_develop.sh
