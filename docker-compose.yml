@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  ros2:
+    build: .
+    image: dev_ws:humble
+    container_name: ros2_dev_ws
+    privileged: true
+    network_mode: host
+    volumes:
+      - ./src:/workspace/src
+      - ./launch:/workspace/launch
+      - /dev:/dev
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0 # Adjust based on your device
+      - /dev/ttyACM0:/dev/ttyACM0 # Adjust based on your device
+    environment:
+      - DISPLAY=${DISPLAY}
+      - ROS_DOMAIN_ID=0
+    stdin_open: true
+    tty: true
+    command: /bin/bash
